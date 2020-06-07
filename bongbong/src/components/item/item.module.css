@@ -1,0 +1,27 @@
+.item {
+    position: relative;
+    background: rgba(233, 222, 127, 0.6);
+    width: 280px;
+    height: 170px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.item>p {
+    color:black;
+}
+
+.item>button {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    width: 100px;
+    height: 26px;
+    border-radius: 2px;
+    border: 0px; 
+    color: black;
+}
+.item:hover button{
+    background:red;
+}
